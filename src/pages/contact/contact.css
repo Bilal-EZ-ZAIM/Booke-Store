@@ -1,0 +1,93 @@
+.contact{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.contact .one-contact{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #777;
+}
+.contact .one-contact div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.6;
+    margin: 20px 15px;
+}
+.contact .one-contact div i,
+.contact .one-contact div h1{
+    color: rgb(7, 76, 180);
+    font-size: 28px;
+}
+.contact .one-contact div h1{
+    font-weight: 500;
+}
+.contact .one-contact div p{
+    font-size: 20px;
+}
+@media (max-width:650px) {
+    .contact .one-contact{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:350px) {
+    .contact .one-contact div p{
+        font-size: 17px;
+    }
+    .contact .one-contact div{
+        margin: 20px 10px;
+    }
+}
+.contact .tow-contact{
+    width: 95%;
+    margin: 0 auto;
+}
+.contact .tow-contact .title{
+    display: grid;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.contact .tow-contact .input{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.contact .tow-contact .input input{
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #666;
+    font-size: 18px;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
+.contact .tow-contact textarea{
+    width: calc(100% - 20px);
+    height: 20vh;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #666;
+}
+.contact .tow-contact .btn{
+    background-color: rgb(17, 153, 243);
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+@media (max-width:758px) {
+    .contact .tow-contact .input input{
+        width: 100%;
+    }
+}

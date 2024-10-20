@@ -1,0 +1,46 @@
+.buttons{
+    background-color: #f1eded;
+    min-height: 20vh;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttons .container{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.buttons .container .button-cart{
+    border: 1px solid #666;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.buttons .container .button-cart i{
+    font-size: 22px;
+    color: #333;
+}
+.buttons .container .button-cart h4{
+    font-size: 18px;
+    color: #555;
+}
+@media (max-width:495px) {
+    .buttons .container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .buttons .container .button-cart{
+        width: 90%;
+    }
+}

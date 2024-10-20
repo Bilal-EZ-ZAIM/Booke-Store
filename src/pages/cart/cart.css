@@ -1,0 +1,187 @@
+.cart {
+    width: 100%;
+    min-height: 60vh;
+}
+
+.cart .contenr-cart {
+    width: (100% - 60px);
+    height: 100%;
+    padding: 20px 30px;
+}
+
+.cart .contenr-cart .title-cart h1 {
+    font-weight: 600;
+    width: 272px;
+    border-bottom: 3px solid rgb(2, 156, 156);
+    padding: 5px 0;
+}
+
+.cart .contenr-cart .main-content {
+    display: flex;
+    height: auto;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.cart .contenr-cart .main-content .lefth {
+    height: auto;
+    min-width: 64%;
+}
+
+.cart .contenr-cart .main-content .lefth .lin {
+    min-height: 25vh;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 5px 17px;
+    border-bottom: 2px solid #777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cart .contenr-cart .main-content .lefth .lin .image {
+    height: 100%;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart .contenr-cart .main-content .lefth .lin .image .tileAtour div {
+    margin-bottom: 5px;
+}
+
+.cart .contenr-cart .main-content .lefth .lin .image .tileAtour div b {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cart .contenr-cart .main-content .lefth .lin .image .tileAtour div span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #222;
+}
+
+.cart .contenr-cart .main-content .lefth .lin .image img {
+    height: 25vh;
+}
+
+.cart .contenr-cart .main-content .lefth .lin .minceplus {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart .contenr-cart .main-content .lefth .lin .minceplus .btn button {
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px #999;
+    width: 28px;
+    height: 32px;
+    color: #666;
+    border-radius: 3px;
+}
+
+.cart .contenr-cart .main-content .lefth .lin .minceplus .btn span {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.cart .contenr-cart .main-content .lefth .lin .minceplus .price h3 {
+    margin-top: 5px;
+    font-weight: 500;
+    color: #444;
+    font-size: 20px;
+}
+
+.cart .contenr-cart .main-content .rigth {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart .contenr-cart .main-content .rigth div h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart .contenr-cart .main-content .rigth div {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #444;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+}
+
+.cart .contenr-cart .main-content .rigth div:last-child {
+    border-bottom: 1px solid #444;
+}
+.cart .contenr-cart .main-content .lefth .lin .trash{
+    position: absolute;
+    color: red;
+    bottom: 5px;
+    right: 15px;
+    cursor: pointer;
+
+}
+
+@media (max-width:950px) {
+    .cart .contenr-cart .main-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:650px) {
+    .cart .contenr-cart {
+        width: (100% - 20px);
+        padding: 20px 10px;
+    }
+
+    .cart .contenr-cart .main-content .lefth .lin {
+        padding: 5px 0;
+    }
+
+    .cart .contenr-cart .main-content .lefth .lin .image {
+        height: 100%;
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+}
+@media (max-width:400px){
+    .cart .contenr-cart {
+        width: (100% - 12px);
+        padding: 20px 6px  ;
+    }
+    .cart .contenr-cart .main-content .lefth .lin {
+        padding: 5px 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cart .contenr-cart .main-content .lefth .lin .image .tileAtour div {
+        margin-bottom: 5px;
+    }
+    
+    .cart .contenr-cart .main-content .lefth .lin .image .tileAtour div b {
+        font-size: 16px;
+    }
+    
+    .cart .contenr-cart .main-content .lefth .lin .image .tileAtour div span {
+        font-size: 14px;
+    }
+    .cart .contenr-cart .title-cart h1 {
+        font-weight: 600;
+        width: 190px;
+        font-size: 22px;
+    }
+}

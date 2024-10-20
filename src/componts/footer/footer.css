@@ -1,0 +1,124 @@
+footer {
+    width: calc(100% - 40px);
+    min-height: 60vh;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 133, 252);
+    color: #fff;
+}
+
+footer .socialMedia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 10vh;
+    padding: 10px 0;
+    border-bottom: 1.6px solid #edffff;
+}
+
+footer .titleSocil {
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    white-space: 2px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconSocial {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.iconSocial i {
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px;
+}
+
+@media (max-width:350px) {
+    footer .titleSocil {
+        font-size: 14px;
+        white-space: 0;
+    }
+
+    .iconSocial i {
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.iconSocial i:first-child {
+    color: rgb(248, 28, 248);
+}
+
+.iconSocial i:nth-child(2) {
+    color: rgba(0, 0, 255, 0.966);
+}
+
+.iconSocial i:nth-child(3) {
+    color: rgb(7, 161, 250);
+}
+
+.iconSocial i:nth-child(4) {
+    color: red;
+}
+
+.iconSocial i:nth-child(5) {
+    color: rgb(115, 197, 252);
+}
+footer .botom{
+    width: 100%;
+    padding-top: 20px;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+footer .botom .fotorBotom{
+    width:300px;
+    min-height: 30vh;
+
+}
+footer .botom .fotorBotom .titel{
+    padding-bottom: 4px;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+footer .botom .fotorBotom ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 2.6;
+    min-height: 10vh;
+    font-size: 18px;
+    font-weight: normal;
+}
+footer .botom .fotorBotom p{
+    font-size: 17px;
+    color: #eeeded;
+    letter-spacing: 0.5px;
+}
+footer .botom .fotorBotom ul li a{
+    color: #fff;
+}

@@ -1,0 +1,186 @@
+.datalis{
+    width: 100%;
+    min-height: 70vh;
+}
+.datalis .datalist-contenr{
+    padding: 40px 20px;
+    min-height: 60vh;
+}
+.datalis .datalist-contenr .datalist-top{
+    display: flex;
+    gap: 20px;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+.datalis .datalist-contenr .datalist-top .datalist-img{
+    height: 40vh;
+    width: 350px;
+    background-color: #fffbfb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 3px #888;
+}
+.datalis .datalist-contenr .datalist-top .datalist-img img{
+    height: 35vh;
+    width: 170px;
+}
+.datalis .datalist-contenr .datalist-top .datalist-ratigh{
+    line-height: 2.5;
+}
+@media (max-width:870px) {
+    .datalis .datalist-contenr .datalist-top .datalist-ratigh h1{
+        font-size: 24px;
+        line-height: 2;
+    }
+    
+}
+.datalis .datalist-contenr .datalist-top .datalist-ratigh .autor h3{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 21px;
+    color: #888;
+    font-weight: 610;
+}
+.datalis .datalist-contenr .datalist-top .datalist-ratigh .autor .dataAoutor{
+    color: rgb(1, 105, 105);
+}
+.addto-cart{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 10px 0;
+}
+.addto-cart input{
+    box-shadow: 0 0 1px 1px #666;
+    border-radius: 2px;
+    height:21px;
+    font-size: 18px;
+    width: 100px;
+    padding: 10px;
+}
+.addto-cart .carr-pl .btn{
+    color: #1d8603;
+    padding: 8px 20px;
+    box-shadow: 0 0 1px 1px #1d8603;
+    display: flex;
+    width: 150px;
+    align-items: center;
+    font-weight: 100;
+    font-size: 16px;
+    justify-content: space-around;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width:575px){
+    .datalis .datalist-contenr .datalist-top{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:400px){
+    .datalis .datalist-contenr .datalist-top .datalist-img{
+        height: 40vh;
+        width: 220px;
+        background-color: #fffbfb;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 3px #888;
+    }
+    .datalis .datalist-contenr .datalist-top .datalist-img img{
+        height: 35vh;
+        width: 200px;
+    }
+    .datalis .datalist-contenr{
+        padding: 20px 5px;
+    }
+    .datalis .datalist-contenr .datalist-top .datalist-ratigh{
+       text-align: center;
+    }
+    .datalis .datalist-contenr .datalist-top .datalist-ratigh h1{
+        font-size: 18px;
+        line-height: 2;
+    }
+    .addto-cart{
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .addto-cart input{
+        height:17px;
+        font-size: 16px;
+        width: 60px;
+        padding: 5px;
+    }
+    .addto-cart .carr-pl .btn{
+        font-weight: 100;
+        font-size: 15px;
+        justify-content: center;
+        padding: 3px;
+        width: 100px;
+    }
+    .datalis .datalist-contenr .datalist-top .datalist-ratigh .autor h3{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 16px;
+        color: #888;
+        font-weight: 610;
+    }
+}
+.datalis .datalist-contenr .datalis-bottm{
+    height: auto;
+    padding: 15px 0;
+}
+.datalis .datalist-contenr .datalis-bottm p{
+    color: #444;
+    line-height: 2;
+    font-weight: 600;
+    font-size: 19px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+@media (max-width:500px) {
+    .datalis .datalist-contenr .datalis-bottm p{
+        width: 95%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+}
+.datalis .datalist-contenr .icon{
+    display: flex;
+    gap: 45px;
+    height: auto;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.datalis .datalist-contenr .icon .final{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(2, 131, 131);
+}
+.datalis .datalist-contenr .icon .final h3{
+    font-size: 18px;
+    font-weight: normal;
+}
+.datalis .datalist-contenr .icon .final .h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.datalis .datalist-contenr .icon .final i{
+    font-size: 28px;
+}
+@media (max-width:450px) {
+    .datalis .datalist-contenr .icon{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,128 @@
+.slider-book{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 20px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.slider-book .silider-book-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.slider-book .silider-book-title h2{
+    color: #155df8;
+    font-size: 32px;
+    font-weight: 500;
+    border-bottom: 2px solid #155df8;
+    padding-bottom: 5px;
+    
+}
+.slider-book .silder-book-parnt{
+    min-height: 55vh;
+    width: 90%;
+    margin-top: 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    transition: 1s;
+}
+.slider-book .silder-book-parnt .silder-book-children{
+    height: calc(90% - 23px);
+    min-width: 230px;
+    max-width: 250px;
+    background-color: #e6e2e2;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px #888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+}
+.slider-book .silder-book-parnt .silder-book-children .childrn-image{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.slider-book .silder-book-parnt .silder-book-children .childrn-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slider-book .silder-book-parnt .silder-book-children .childrn-title,
+.slider-book .silder-book-parnt .silder-book-children .childrn-rating,
+.slider-book .silder-book-parnt .silder-book-children .childrn-price,
+.slider-book .silder-book-parnt .silder-book-children .childrn-cartShopping{
+    width: 100%;
+    height: 4vh;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.slider-book .silder-book-parnt .silder-book-children .childrn-title{
+    margin-top: 10px;
+    height: 5vh;
+    width: 100%;
+}
+.slider-book .silder-book-parnt .silder-book-children .childrn-title h4{
+    font-size: 16px;
+    text-align: center;
+}
+
+.slider-book .silder-book-parnt .silder-book-children .childrn-rating{
+font-size: 16px;
+color: gold;
+
+}
+.slider-book .silder-book-parnt .silder-book-children .childrn-price h4{
+    font-size: 22px;
+    color: rgb(255, 38, 0);
+}
+
+.slider-book .silder-book-parnt .silder-book-children .childrn-cartShopping i{
+    color: #333;
+    margin-right: 5px;
+    font-size: 19px;
+    z-index: 1235;
+    cursor: pointer;
+}
+.slider-book .icon{
+    background-color: #444343;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 26px;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto ;
+    
+}
+.slider-book .left{
+    left: 10px;
+    z-index: 8888;
+}
+.slider-book .right{
+    right: 10px;
+    z-index: 8888;
+}
+.slider-book .silder-book-parnt .silder-book-children .childrn-cartShopping{
+    border-top: 1px solid #444;
+    margin-bottom: 0;
+}
