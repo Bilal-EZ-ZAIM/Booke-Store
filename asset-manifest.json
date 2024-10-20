@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Booke-Store/static/css/main.db30131a.css",
+    "main.js": "/Booke-Store/static/js/main.b12c0cae.js",
+    "static/media/book1.png": "/Booke-Store/static/media/book1.014f74a3ff49e22fcb0a.png",
+    "static/media/book3.png": "/Booke-Store/static/media/book3.158af7a8e23e5dfb405c.png",
+    "static/media/book2.png": "/Booke-Store/static/media/book2.7f599b8f6cb17e8116a6.png",
+    "static/media/beginning.jpg": "/Booke-Store/static/media/beginning.82ddc12890a9e638e0e8.jpg",
+    "static/media/never-split-the-difference.jpg": "/Booke-Store/static/media/never-split-the-difference.fc9f1a01b964fd6a1bb7.jpg",
+    "static/media/rich-dad-poor-dad.jpg": "/Booke-Store/static/media/rich-dad-poor-dad.42d07746b55853761f18.jpg",
+    "static/media/james.jpg": "/Booke-Store/static/media/james.4c6d169e5ceb46747576.jpg",
+    "static/media/it-ends-with-us.jpg": "/Booke-Store/static/media/it-ends-with-us.424066c04864ebeaa9e5.jpg",
+    "static/media/j.jpg": "/Booke-Store/static/media/j.a1ca43a7c87be58fe98c.jpg",
+    "static/media/atomic-habits.jpg": "/Booke-Store/static/media/atomic-habits.908abb4266858fbe0c30.jpg",
+    "static/media/clason.jpg": "/Booke-Store/static/media/clason.db72bf640ffc742a6e08.jpg",
+    "static/media/confess.jpg": "/Booke-Store/static/media/confess.36632749c8f70d42d9e5.jpg",
+    "static/media/the-trouble-with-hating-you.jpg": "/Booke-Store/static/media/the-trouble-with-hating-you.93d7157a57ff66e00d49.jpg",
+    "static/media/one-true-love.jpg": "/Booke-Store/static/media/one-true-love.ba077b4e8eded3470540.jpg",
+    "static/media/hopeless.jpg": "/Booke-Store/static/media/hopeless.417a5c0ce0b8a9b14cb6.jpg",
+    "static/media/think-and-grow-rich.jpg": "/Booke-Store/static/media/think-and-grow-rich.535d61c9ae840d37ddb5.jpg",
+    "static/media/george.jpg": "/Booke-Store/static/media/george.1aabc646f9f8e7617925.jpg",
+    "static/media/patel.jpg": "/Booke-Store/static/media/patel.bb97095c48837c2f1d52.jpg",
+    "static/media/shafak.jpg": "/Booke-Store/static/media/shafak.a42d0ee8352541173e00.jpg",
+    "static/media/hoover.jpg": "/Booke-Store/static/media/hoover.402f936eab3aed7a734e.jpg",
+    "static/media/nassim.jpg": "/Booke-Store/static/media/nassim.b0a4a800b46625367804.jpg",
+    "index.html": "/Booke-Store/index.html",
+    "main.db30131a.css.map": "/Booke-Store/static/css/main.db30131a.css.map",
+    "main.b12c0cae.js.map": "/Booke-Store/static/js/main.b12c0cae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db30131a.css",
+    "static/js/main.b12c0cae.js"
+  ]
+}
